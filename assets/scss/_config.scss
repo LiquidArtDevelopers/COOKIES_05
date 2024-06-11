@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'roboto_regular';
+    src: url('../font/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'roboto_bold';
+    src: url('../font/Roboto-Bold.ttf');
+}
+
+/* variables para los breakpoints */
+$tablet: 800px;
+$desktop: 1350px;
+
+/* variables para fuentes */
+$fuente01:'roboto_regular';
+$fuente02:'roboto_bold';
+
+/* variables de color */
+$color00: white;
+$color01: rgb(49, 49, 49);
+$color02: rgb(119, 230, 147);
+$color03: rgb(217, 217, 217);
+
